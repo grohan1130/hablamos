@@ -17,7 +17,6 @@ export async function createAccount(payload: {
         if (!response.ok) {
             throw new Error('Failed to create account');
         }
-
         // Handle successful account creation (e.g., redirect or show a success message)
     } catch (error) {
         console.error('Error creating account:', error);
