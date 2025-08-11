@@ -1,0 +1,8 @@
+python-dotenv
+mysql-connector-python
+fastapi
+uvicorn
+sqlalchemy
+passlib[bcrypt]
+python-multipart
+PyJWT
